@@ -28,8 +28,8 @@ body{
 .container h1{ 
     text-align: center;
     letter-spacing: 3px;
-    margin-top: 10%;
-    margin-bottom: 12%;
+    margin-top:5%;
+    margin-bottom: 10%;
     
     color: #FFFFFF;
     font-style: normal;
@@ -84,4 +84,30 @@ a:hover {
 .divider{
     text-align: center;
     color: #FFFFFF;
+}
+.form-footer { text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-outline-primary{
+    color: #FFFFFF;
+}
+.btn-outline-primary1{
+    width: 130px;
+height: 36px;
+
+background: #3B5999;
+border-radius: 15px;   
+}
+.btn-outline-primary2{
+    width: 130px;
+height: 35px;
+
+background: #DB4437;
+border-radius: 15px;    
+}
+#main-footer{
+    margin-top: 40px;
+    font-size: 12px;
+line-height: 14px
 }
