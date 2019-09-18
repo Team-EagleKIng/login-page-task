@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #6275BB;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container{
+position: relative;
+height: 600px;
+padding:10px;
+width:380px;
+margin:0 auto;
+margin-top: 80px;
+background: #1E356F;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 27px;
+text-align: center;
+font-family: 'Titillium Web', sans-serif;
+}
+
+.header{
+    position: relative;
+    background: #1E356F;
+    width: 359px;
+    height:160px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    
+}
+
+
+#create{
+position: relative;
+width: 0 auto;
+height: 0 auto;
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#create p{
+    font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+color: #E6E4E4;
+}
+
+.social {
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 5px;
+    margin-left: 12px;
+  }
+
+.bg1 {background-color: #3b5998}
+.bg2 {background-color: #1da1f2}
+.bg3 {background-color: #ea4335}
+
+.social:hover {
+    color: #fff;
+    background-color: #333333;
+  }
+
+  .bg1{
+      float: left;
+  }
+
+  .bg2{
+    float: left;
+}
+
+.bg3{
+    float: left;
+}
+
+.or{
+    color:white;
+    margin-top: 15px;
+}
+.details{
+    height:28px ;
+    width:300px ;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-bottom: 25px;
+    margin-top: 7px;
+    font-size: 17px;
+    padding-left: 9px;
+}
+
+.submit{
+    background: #3C9AB7;
+border-radius: 12px;
+height: 35px;
+width: 310px;
+font-size:20px;
+color: white;
+margin-left: 12px;
+}
+
+.submit:hover{
+background: #ea4335;
+
+}
+
