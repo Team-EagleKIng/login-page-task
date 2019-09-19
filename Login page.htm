@@ -16,11 +16,12 @@
             <div class="container">
                  <h1>LOGIN HERE</h1>
                 <div class="form-check">
+                    <form action="javascript:triggerSignIn()" method="post">
                    <div>
-                        <span><i class="fa fa-user icon" aria-hidden="true"></i></span><input id="Username" class="form-input" type="text" placeholder="Username e.g EagleKing" required="required">  
+                        <span><i class="fa fa-user icon" aria-hidden="true"></i></span><input id="Username" name="username" class="form-input" type="text" placeholder="Username e.g EagleKing" required="required">  
                     </div>
                    <div>
-                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span><input type="password" name="" id="input" class="form-input" placeholder="Password" required="required">
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span><input type="password" name="password" id="input" class="form-input" placeholder="Password" required="required">
                     </div>
                     <div class="form-check2">
                             <input type="checkbox" class="form-check-input" id="dropdownCheck">
@@ -29,8 +30,10 @@
                             </label>
                             <span><a class="dropdown1" href="#">Forgot password?</span>
                         </div>
-                    <div> <button type="button" class="btn-primary">LOGIN</button></div>
-                   <h6>No User account ?<a class="dropdown" href="index2.htm"> Sign up</a></h6>                    
+                        <input type="submit" class="btn-primary" value="signin" />
+                    <div> <button hidden type="button" id="signInButton" onclick="javascript:signin(this.form)">LOGIN</button></div>
+                    </form>
+                   <h6>No User account ?<a class="dropdown" href="index.html"> Sign up</a></h6>                    
                 </div>
             </div>
             <div class="form-footer">
@@ -44,9 +47,8 @@
         </div>
         
    
-    
-    
-        
-        <script src="" async defer></script>
+
+        <script src="jquery-3.4.1.js" async defer></script>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
