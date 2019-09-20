@@ -45,3 +45,8 @@ function signUp(form) {
 
     })
 }
+
+$(document).ready(function(){
+  $("form").submit(function(event){
+    event.preventDefault();
+    alert("Successful Sign-up");
