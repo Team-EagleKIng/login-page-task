@@ -34,32 +34,32 @@
                             <p class="or">Or Sign Up</p> 
                     </div>
                     <div class="content">
-                        <form action="" method="POST">
+                        <form action="javascript:triggerSignUp()" id="signUpUser" method="POST" >
                           <i class="fa fa-user" aria-hidden="true"></i><input type="text" name="username" class="details " placeholder="Username" required>
+                            <span id="username"> </span>
                             <br>
                             <i class="fa fa-envelope" aria-hidden="true"></i> <input type="email" name="email" class="details" placeholder="Email Address" required>
+                            <span id="email"> </span>
                             <br>
                             <i class="fa fa-briefcase" aria-hidden="true"></i><input type="password" name="password" class="details" placeholder="Create a Password" required>
+                            <span id="password"> </span>
                             <br>
                             <i class="fa fa-envelope" aria-hidden="true"></i> <input type="password" name="confirm" class="details" placeholder="Confirm Password" required>
+                            <span id="confirm"> </span>
                             <br>
                             <input type="submit" name="confirm" class="submit" value="Sign up">
-
-
-                            
+                            <input hidden type="button" name="confirm" id="signUpButton" onclick="javascript:signUpUser(this.form)">
                         </form>
+                    <div id="error_message"></div>
                     </div>
                     <div class="option">
                             <p style="color:white">Already have an Account ? <a href="index.html" style="color: #3C9AB7">login here</a></p>
                         
                             <p style="color:white">© 2019 EagleKIng</p> 
-                    
-                    
-                  
-
             </div>
-            
         </div>
- 
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+		<script src="jquery-3.4.1.js" async defer></script>
+    		<script type="text/javascript" src="scripts.js"></script>
     </body>
 </html>
