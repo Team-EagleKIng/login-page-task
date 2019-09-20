@@ -34,8 +34,8 @@
                             <p class="or">Or Sign Up</p> 
                     </div>
                     <div class="content">
-                        <form action="javascript:triggerSignUp()" id="signUpUser" method="POST" >
-                          <i class="fa fa-user" aria-hidden="true"></i><input type="text" name="username" class="details " placeholder="Username" required>
+                        <form action="https://teameagle123.herokuapp.com/signup" id="" method="POST" >
+                          <i class="fa fa-user" aria-hidden="true"></i><input type="text" name="username" class="details " placeholder="Username" required >
                             <span id="username"> </span>
                             <br>
                             <i class="fa fa-envelope" aria-hidden="true"></i> <input type="email" name="email" class="details" placeholder="Email Address" required>
@@ -44,13 +44,13 @@
                             <i class="fa fa-briefcase" aria-hidden="true"></i><input type="password" name="password" class="details" placeholder="Create a Password" required>
                             <span id="password"> </span>
                             <br>
-                            <i class="fa fa-envelope" aria-hidden="true"></i> <input type="password" name="confirm" class="details" placeholder="Confirm Password" required>
+                            <i class="fa fa-envelope" aria-hidden="true"></i> <input type="password" name="confirmPassword" class="details" placeholder="Confirm Password" required>
                             <span id="confirm"> </span>
                             <br>
                 
-                            <button  type="button" class="submit" name="confirm" id="signUpButton" onclick="javascript:signUpUser(this.form)">Sign up</button>
+                            <input type="submit" class="submit" value="Sign up" name="confirm" >
                         </form>
-                    <div id="error_message"></div>
+                    
                     </div>
                     <div class="option">
                             <p style="color:white">Already have an Account ? <a href="index.html" style="color: #3C9AB7">login here</a></p>
